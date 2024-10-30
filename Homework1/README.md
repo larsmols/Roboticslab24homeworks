@@ -25,8 +25,16 @@ Setup
 
 Running the Simulation
 ----------------------
-
+- To launch the visualization in RViz within the Docker environment, run:
+     ros2 launch arm_description display.launch.py
+  
 - To launch the manipulator in Gazebo within the Docker environment, run:
+     ros2 launch arm_gazebo arm_world.launch.py
+
+- To launch the manipulator in Gazebo with control sensors, run:
+     ros2 launch arm_control arm_control.launch.py
+
+- To launch the manipulator in Gazebo with camera sensor, run:
      ros2 launch arm_gazebo arm_gazebo.launch.py
 
 
