@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="arm_hardware_interface">
+
+  <xacro:macro name="add_joint_hardware_interface" params="joint_name">
+    <joint name="${joint_name}" type="revolute">
+      <parent link="base_turn"/>
+      <child link="${joint_name}_link"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <axis xyz="0 0 1"/>
+      <limit effort="300" velocity="0.1" lower="-3.14" upper="3.14"/>
+      <hardwareInterface>
+        <interface>PositionJointInterface</interface>
+      </hardwareInterface>
+    </joint>
+  </xacro:macro>
+
+  <xacro:macro name="joint_ros2_control" params="name initial_pos">
+  <joint name="${name}">
+    <command_interface name="position" initial_value="${initial_pos}"/>
+    <state_interface name="position"/>
+  </joint>
+</xacro:macro>
+
+
+</robot>
