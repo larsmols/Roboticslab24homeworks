@@ -1,0 +1,510 @@
+[0.000000] (-) TimerEvent: {}
+[0.000348] (orocos_kdl) JobQueued: {'identifier': 'orocos_kdl', 'dependencies': OrderedDict()}
+[0.000773] (orocos_kdl) JobStarted: {'identifier': 'orocos_kdl'}
+[0.024976] (orocos_kdl) JobProgress: {'identifier': 'orocos_kdl', 'progress': 'cmake'}
+[0.025440] (orocos_kdl) Command: {'cmd': ['/usr/bin/cmake', '/home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl', '-DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl'], 'cwd': '/home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/build/orocos_kdl', 'env': OrderedDict([('HOSTNAME', 'larsmols-XPS-13-9310'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/user'), ('OLDPWD', '/home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics'), ('ROS_PYTHON_VERSION', '3'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/user/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/build/orocos_kdl'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099825] (-) TimerEvent: {}
+[0.200305] (-) TimerEvent: {}
+[0.243801] (orocos_kdl) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.300484] (-) TimerEvent: {}
+[0.401008] (-) TimerEvent: {}
+[0.401601] (orocos_kdl) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.422395] (orocos_kdl) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.501155] (-) TimerEvent: {}
+[0.561187] (orocos_kdl) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.572221] (orocos_kdl) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.572939] (orocos_kdl) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.573704] (orocos_kdl) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.577875] (orocos_kdl) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.601280] (-) TimerEvent: {}
+[0.701709] (-) TimerEvent: {}
+[0.729011] (orocos_kdl) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.739533] (orocos_kdl) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.739892] (orocos_kdl) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.740559] (orocos_kdl) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.741558] (orocos_kdl) StdoutLine: {'line': b'-- Orocos KDL version  (1.5.1)\n'}
+[0.771384] (orocos_kdl) StdoutLine: {'line': b"-- Setting build type to 'Release'\n"}
+[0.783884] (orocos_kdl) StdoutLine: {'line': b'-- Performing Test HAVE_STL_CONTAINER_INCOMPLETE_TYPES\n'}
+[0.801900] (-) TimerEvent: {}
+[0.902331] (-) TimerEvent: {}
+[1.002800] (-) TimerEvent: {}
+[1.103379] (-) TimerEvent: {}
+[1.192969] (orocos_kdl) StdoutLine: {'line': b'-- Performing Test HAVE_STL_CONTAINER_INCOMPLETE_TYPES - Success\n'}
+[1.203480] (-) TimerEvent: {}
+[1.205662] (orocos_kdl) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.232436] (orocos_kdl) StdoutLine: {'line': b'-- Generating done\n'}
+[1.234634] (orocos_kdl) StdoutLine: {'line': b'-- Build files have been written to: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/build/orocos_kdl\n'}
+[1.240869] (orocos_kdl) CommandEnded: {'returncode': 0}
+[1.241766] (orocos_kdl) JobProgress: {'identifier': 'orocos_kdl', 'progress': 'build'}
+[1.243239] (orocos_kdl) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/build/orocos_kdl', '--', '-j8', '-l8'], 'cwd': '/home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/build/orocos_kdl', 'env': OrderedDict([('HOSTNAME', 'larsmols-XPS-13-9310'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/user'), ('OLDPWD', '/home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics'), ('ROS_PYTHON_VERSION', '3'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/user/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/build/orocos_kdl'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.303637] (-) TimerEvent: {}
+[1.337460] (orocos_kdl) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/chain.cpp.o\x1b[0m\n'}
+[1.337943] (orocos_kdl) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/chainexternalwrenchestimator.cpp.o\x1b[0m\n'}
+[1.338157] (orocos_kdl) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/articulatedbodyinertia.cpp.o\x1b[0m\n'}
+[1.338448] (orocos_kdl) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/chaindynparam.cpp.o\x1b[0m\n'}
+[1.338616] (orocos_kdl) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/chainfksolvervel_recursive.cpp.o\x1b[0m\n'}
+[1.339125] (orocos_kdl) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/chainhdsolver_vereshchagin.cpp.o\x1b[0m\n'}
+[1.340449] (orocos_kdl) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/chainfksolverpos_recursive.cpp.o\x1b[0m\n'}
+[1.341079] (orocos_kdl) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/chainfdsolver_recursive_newton_euler.cpp.o\x1b[0m\n'}
+[1.405774] (-) TimerEvent: {}
+[1.506364] (-) TimerEvent: {}
+[1.606903] (-) TimerEvent: {}
+[1.707449] (-) TimerEvent: {}
+[1.809768] (-) TimerEvent: {}
+[1.910345] (-) TimerEvent: {}
+[2.010909] (-) TimerEvent: {}
+[2.111499] (-) TimerEvent: {}
+[2.212782] (-) TimerEvent: {}
+[2.316773] (-) TimerEvent: {}
+[2.417388] (-) TimerEvent: {}
+[2.517947] (-) TimerEvent: {}
+[2.619312] (-) TimerEvent: {}
+[2.685881] (orocos_kdl) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/chainidsolver_recursive_newton_euler.cpp.o\x1b[0m\n'}
+[2.719467] (-) TimerEvent: {}
+[2.820088] (-) TimerEvent: {}
+[2.922772] (-) TimerEvent: {}
+[3.023323] (-) TimerEvent: {}
+[3.125770] (-) TimerEvent: {}
+[3.226377] (-) TimerEvent: {}
+[3.326936] (-) TimerEvent: {}
+[3.427512] (-) TimerEvent: {}
+[3.528775] (-) TimerEvent: {}
+[3.630770] (-) TimerEvent: {}
+[3.731319] (-) TimerEvent: {}
+[3.831846] (-) TimerEvent: {}
+[3.930322] (orocos_kdl) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/chainidsolver_vereshchagin.cpp.o\x1b[0m\n'}
+[3.931959] (-) TimerEvent: {}
+[4.032406] (-) TimerEvent: {}
+[4.134770] (-) TimerEvent: {}
+[4.152788] (orocos_kdl) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/chainiksolverpos_lma.cpp.o\x1b[0m\n'}
+[4.234927] (-) TimerEvent: {}
+[4.245379] (orocos_kdl) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/chainiksolverpos_nr.cpp.o\x1b[0m\n'}
+[4.335088] (-) TimerEvent: {}
+[4.435680] (-) TimerEvent: {}
+[4.536257] (-) TimerEvent: {}
+[4.636829] (-) TimerEvent: {}
+[4.653769] (orocos_kdl) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/chainiksolverpos_nr_jl.cpp.o\x1b[0m\n'}
+[4.736990] (-) TimerEvent: {}
+[4.837894] (-) TimerEvent: {}
+[4.939026] (-) TimerEvent: {}
+[5.041170] (-) TimerEvent: {}
+[5.155275] (-) TimerEvent: {}
+[5.257770] (-) TimerEvent: {}
+[5.358334] (-) TimerEvent: {}
+[5.458907] (-) TimerEvent: {}
+[5.561775] (-) TimerEvent: {}
+[5.662381] (-) TimerEvent: {}
+[5.739375] (orocos_kdl) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/chainiksolvervel_pinv.cpp.o\x1b[0m\n'}
+[5.762551] (-) TimerEvent: {}
+[5.863143] (-) TimerEvent: {}
+[5.964140] (-) TimerEvent: {}
+[6.067773] (-) TimerEvent: {}
+[6.168309] (-) TimerEvent: {}
+[6.268869] (-) TimerEvent: {}
+[6.369424] (-) TimerEvent: {}
+[6.469973] (-) TimerEvent: {}
+[6.570552] (-) TimerEvent: {}
+[6.604841] (orocos_kdl) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/chainiksolvervel_pinv_givens.cpp.o\x1b[0m\n'}
+[6.672765] (-) TimerEvent: {}
+[6.730431] (orocos_kdl) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/chainiksolvervel_pinv_nso.cpp.o\x1b[0m\n'}
+[6.772928] (-) TimerEvent: {}
+[6.873503] (-) TimerEvent: {}
+[6.979775] (-) TimerEvent: {}
+[7.080364] (-) TimerEvent: {}
+[7.180981] (-) TimerEvent: {}
+[7.281587] (-) TimerEvent: {}
+[7.383762] (-) TimerEvent: {}
+[7.396314] (orocos_kdl) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/chainiksolvervel_wdls.cpp.o\x1b[0m\n'}
+[7.483930] (-) TimerEvent: {}
+[7.491956] (orocos_kdl) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/chainjnttojacdotsolver.cpp.o\x1b[0m\n'}
+[7.587776] (-) TimerEvent: {}
+[7.688339] (-) TimerEvent: {}
+[7.788912] (-) TimerEvent: {}
+[7.889506] (-) TimerEvent: {}
+[7.990106] (-) TimerEvent: {}
+[8.090698] (-) TimerEvent: {}
+[8.191294] (-) TimerEvent: {}
+[8.299775] (-) TimerEvent: {}
+[8.400511] (-) TimerEvent: {}
+[8.417780] (orocos_kdl) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/chainjnttojacsolver.cpp.o\x1b[0m\n'}
+[8.500675] (-) TimerEvent: {}
+[8.601272] (-) TimerEvent: {}
+[8.701864] (-) TimerEvent: {}
+[8.802750] (-) TimerEvent: {}
+[8.905771] (-) TimerEvent: {}
+[9.006346] (-) TimerEvent: {}
+[9.106890] (-) TimerEvent: {}
+[9.207423] (-) TimerEvent: {}
+[9.308349] (-) TimerEvent: {}
+[9.409170] (-) TimerEvent: {}
+[9.510981] (-) TimerEvent: {}
+[9.614770] (-) TimerEvent: {}
+[9.715345] (-) TimerEvent: {}
+[9.722838] (orocos_kdl) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/frameacc.cpp.o\x1b[0m\n'}
+[9.815520] (-) TimerEvent: {}
+[9.916138] (-) TimerEvent: {}
+[10.016760] (-) TimerEvent: {}
+[10.120770] (-) TimerEvent: {}
+[10.221337] (-) TimerEvent: {}
+[10.321922] (-) TimerEvent: {}
+[10.324225] (orocos_kdl) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/frames.cpp.o\x1b[0m\n'}
+[10.422081] (-) TimerEvent: {}
+[10.489371] (orocos_kdl) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/frames_io.cpp.o\x1b[0m\n'}
+[10.522252] (-) TimerEvent: {}
+[10.624915] (-) TimerEvent: {}
+[10.725478] (-) TimerEvent: {}
+[10.826048] (-) TimerEvent: {}
+[10.926627] (-) TimerEvent: {}
+[11.029929] (-) TimerEvent: {}
+[11.083127] (orocos_kdl) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/framevel.cpp.o\x1b[0m\n'}
+[11.130092] (-) TimerEvent: {}
+[11.231377] (-) TimerEvent: {}
+[11.332678] (-) TimerEvent: {}
+[11.411628] (orocos_kdl) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/jacobian.cpp.o\x1b[0m\n'}
+[11.413539] (orocos_kdl) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/jntarray.cpp.o\x1b[0m\n'}
+[11.435772] (-) TimerEvent: {}
+[11.537021] (-) TimerEvent: {}
+[11.638284] (-) TimerEvent: {}
+[11.739549] (-) TimerEvent: {}
+[11.840741] (-) TimerEvent: {}
+[11.941892] (-) TimerEvent: {}
+[11.955707] (orocos_kdl) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/jntarrayacc.cpp.o\x1b[0m\n'}
+[12.042059] (-) TimerEvent: {}
+[12.143260] (-) TimerEvent: {}
+[12.236890] (orocos_kdl) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/jntarrayvel.cpp.o\x1b[0m\n'}
+[12.243460] (-) TimerEvent: {}
+[12.344768] (-) TimerEvent: {}
+[12.445338] (-) TimerEvent: {}
+[12.545902] (-) TimerEvent: {}
+[12.649772] (-) TimerEvent: {}
+[12.750345] (-) TimerEvent: {}
+[12.850920] (-) TimerEvent: {}
+[12.951734] (-) TimerEvent: {}
+[13.052305] (-) TimerEvent: {}
+[13.152881] (-) TimerEvent: {}
+[13.256775] (-) TimerEvent: {}
+[13.357349] (-) TimerEvent: {}
+[13.364854] (orocos_kdl) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/jntspaceinertiamatrix.cpp.o\x1b[0m\n'}
+[13.444268] (orocos_kdl) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/joint.cpp.o\x1b[0m\n'}
+[13.457504] (-) TimerEvent: {}
+[13.559772] (-) TimerEvent: {}
+[13.660428] (-) TimerEvent: {}
+[13.761076] (-) TimerEvent: {}
+[13.861696] (-) TimerEvent: {}
+[13.962836] (-) TimerEvent: {}
+[14.067770] (-) TimerEvent: {}
+[14.170766] (-) TimerEvent: {}
+[14.267704] (orocos_kdl) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/kinfam_io.cpp.o\x1b[0m\n'}
+[14.271042] (-) TimerEvent: {}
+[14.312909] (orocos_kdl) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/path.cpp.o\x1b[0m\n'}
+[14.371162] (-) TimerEvent: {}
+[14.471915] (-) TimerEvent: {}
+[14.475806] (orocos_kdl) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/path_circle.cpp.o\x1b[0m\n'}
+[14.485948] (orocos_kdl) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/path_composite.cpp.o\x1b[0m\n'}
+[14.572057] (-) TimerEvent: {}
+[14.673017] (-) TimerEvent: {}
+[14.765212] (orocos_kdl) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/path_cyclic_closed.cpp.o\x1b[0m\n'}
+[14.773159] (-) TimerEvent: {}
+[14.873957] (-) TimerEvent: {}
+[14.977066] (-) TimerEvent: {}
+[15.078041] (-) TimerEvent: {}
+[15.179102] (-) TimerEvent: {}
+[15.279660] (-) TimerEvent: {}
+[15.382936] (-) TimerEvent: {}
+[15.483468] (-) TimerEvent: {}
+[15.584110] (-) TimerEvent: {}
+[15.684775] (-) TimerEvent: {}
+[15.785335] (-) TimerEvent: {}
+[15.887927] (-) TimerEvent: {}
+[15.988500] (-) TimerEvent: {}
+[16.089199] (-) TimerEvent: {}
+[16.191770] (-) TimerEvent: {}
+[16.292568] (-) TimerEvent: {}
+[16.393408] (-) TimerEvent: {}
+[16.494220] (-) TimerEvent: {}
+[16.598943] (-) TimerEvent: {}
+[16.631019] (orocos_kdl) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/path_line.cpp.o\x1b[0m\n'}
+[16.699106] (-) TimerEvent: {}
+[16.787358] (orocos_kdl) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/path_point.cpp.o\x1b[0m\n'}
+[16.799273] (-) TimerEvent: {}
+[16.900118] (-) TimerEvent: {}
+[16.937533] (orocos_kdl) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/path_roundedcomposite.cpp.o\x1b[0m\n'}
+[16.983741] (orocos_kdl) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/rigidbodyinertia.cpp.o\x1b[0m\n'}
+[17.000267] (-) TimerEvent: {}
+[17.100940] (-) TimerEvent: {}
+[17.115906] (orocos_kdl) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/rotational_interpolation.cpp.o\x1b[0m\n'}
+[17.201126] (-) TimerEvent: {}
+[17.263700] (orocos_kdl) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/rotational_interpolation_sa.cpp.o\x1b[0m\n'}
+[17.301288] (-) TimerEvent: {}
+[17.401951] (-) TimerEvent: {}
+[17.506971] (-) TimerEvent: {}
+[17.620103] (-) TimerEvent: {}
+[17.720780] (-) TimerEvent: {}
+[17.821458] (-) TimerEvent: {}
+[17.922161] (-) TimerEvent: {}
+[18.023859] (-) TimerEvent: {}
+[18.040200] (orocos_kdl) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/rotationalinertia.cpp.o\x1b[0m\n'}
+[18.124032] (-) TimerEvent: {}
+[18.224597] (-) TimerEvent: {}
+[18.325153] (-) TimerEvent: {}
+[18.425701] (-) TimerEvent: {}
+[18.538065] (-) TimerEvent: {}
+[18.643063] (-) TimerEvent: {}
+[18.750518] (-) TimerEvent: {}
+[18.851911] (-) TimerEvent: {}
+[18.956205] (-) TimerEvent: {}
+[19.057366] (-) TimerEvent: {}
+[19.147785] (orocos_kdl) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/segment.cpp.o\x1b[0m\n'}
+[19.157503] (-) TimerEvent: {}
+[19.258087] (-) TimerEvent: {}
+[19.358739] (-) TimerEvent: {}
+[19.459411] (-) TimerEvent: {}
+[19.566915] (-) TimerEvent: {}
+[19.668941] (-) TimerEvent: {}
+[19.779781] (orocos_kdl) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/trajectory.cpp.o\x1b[0m\n'}
+[19.780234] (-) TimerEvent: {}
+[19.880682] (-) TimerEvent: {}
+[19.981342] (-) TimerEvent: {}
+[19.997729] (orocos_kdl) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/trajectory_composite.cpp.o\x1b[0m\n'}
+[20.084788] (-) TimerEvent: {}
+[20.112628] (orocos_kdl) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/trajectory_segment.cpp.o\x1b[0m\n'}
+[20.169466] (orocos_kdl) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/trajectory_stationary.cpp.o\x1b[0m\n'}
+[20.184949] (-) TimerEvent: {}
+[20.287007] (-) TimerEvent: {}
+[20.390987] (-) TimerEvent: {}
+[20.492917] (-) TimerEvent: {}
+[20.593479] (-) TimerEvent: {}
+[20.697198] (-) TimerEvent: {}
+[20.797779] (-) TimerEvent: {}
+[20.898381] (-) TimerEvent: {}
+[20.973420] (orocos_kdl) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/tree.cpp.o\x1b[0m\n'}
+[20.998540] (-) TimerEvent: {}
+[21.105775] (-) TimerEvent: {}
+[21.206365] (-) TimerEvent: {}
+[21.312772] (-) TimerEvent: {}
+[21.414779] (-) TimerEvent: {}
+[21.515352] (-) TimerEvent: {}
+[21.615835] (-) TimerEvent: {}
+[21.636476] (orocos_kdl) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/treefksolverpos_recursive.cpp.o\x1b[0m\n'}
+[21.716030] (-) TimerEvent: {}
+[21.818054] (-) TimerEvent: {}
+[21.918926] (-) TimerEvent: {}
+[22.019599] (-) TimerEvent: {}
+[22.122812] (-) TimerEvent: {}
+[22.223528] (-) TimerEvent: {}
+[22.324219] (-) TimerEvent: {}
+[22.425776] (-) TimerEvent: {}
+[22.526323] (-) TimerEvent: {}
+[22.630774] (-) TimerEvent: {}
+[22.731347] (-) TimerEvent: {}
+[22.770735] (orocos_kdl) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/treeidsolver_recursive_newton_euler.cpp.o\x1b[0m\n'}
+[22.816339] (orocos_kdl) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/treeiksolverpos_nr_jl.cpp.o\x1b[0m\n'}
+[22.831512] (-) TimerEvent: {}
+[22.834507] (orocos_kdl) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/treeiksolverpos_online.cpp.o\x1b[0m\n'}
+[22.931678] (-) TimerEvent: {}
+[23.032216] (-) TimerEvent: {}
+[23.132768] (-) TimerEvent: {}
+[23.182901] (orocos_kdl) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/treeiksolvervel_wdls.cpp.o\x1b[0m\n'}
+[23.236118] (-) TimerEvent: {}
+[23.336792] (-) TimerEvent: {}
+[23.374856] (orocos_kdl) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/treejnttojacsolver.cpp.o\x1b[0m\n'}
+[23.436956] (-) TimerEvent: {}
+[23.538195] (-) TimerEvent: {}
+[23.638904] (-) TimerEvent: {}
+[23.743021] (-) TimerEvent: {}
+[23.843715] (-) TimerEvent: {}
+[23.894972] (orocos_kdl) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/utilities/error_stack.cxx.o\x1b[0m\n'}
+[23.943870] (-) TimerEvent: {}
+[24.044523] (-) TimerEvent: {}
+[24.145309] (-) TimerEvent: {}
+[24.249162] (-) TimerEvent: {}
+[24.339807] (orocos_kdl) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/utilities/ldl_solver_eigen.cpp.o\x1b[0m\n'}
+[24.349318] (-) TimerEvent: {}
+[24.449853] (-) TimerEvent: {}
+[24.550476] (-) TimerEvent: {}
+[24.653800] (-) TimerEvent: {}
+[24.754342] (-) TimerEvent: {}
+[24.854921] (-) TimerEvent: {}
+[24.955502] (-) TimerEvent: {}
+[25.056077] (-) TimerEvent: {}
+[25.156696] (-) TimerEvent: {}
+[25.199750] (orocos_kdl) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/utilities/svd_HH.cpp.o\x1b[0m\n'}
+[25.256857] (-) TimerEvent: {}
+[25.358774] (-) TimerEvent: {}
+[25.459320] (-) TimerEvent: {}
+[25.559939] (-) TimerEvent: {}
+[25.661049] (-) TimerEvent: {}
+[25.715230] (orocos_kdl) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/utilities/svd_eigen_HH.cpp.o\x1b[0m\n'}
+[25.761225] (-) TimerEvent: {}
+[25.823186] (orocos_kdl) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/utilities/svd_eigen_Macie.cpp.o\x1b[0m\n'}
+[25.861387] (-) TimerEvent: {}
+[25.943508] (orocos_kdl) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/utilities/utility.cxx.o\x1b[0m\n'}
+[25.963022] (-) TimerEvent: {}
+[26.072808] (-) TimerEvent: {}
+[26.175024] (-) TimerEvent: {}
+[26.275921] (-) TimerEvent: {}
+[26.381680] (-) TimerEvent: {}
+[26.484783] (-) TimerEvent: {}
+[26.490230] (orocos_kdl) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/utilities/utility_io.cxx.o\x1b[0m\n'}
+[26.584965] (-) TimerEvent: {}
+[26.685637] (-) TimerEvent: {}
+[26.798042] (-) TimerEvent: {}
+[26.873980] (orocos_kdl) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/velocityprofile.cpp.o\x1b[0m\n'}
+[26.898218] (-) TimerEvent: {}
+[26.998860] (-) TimerEvent: {}
+[27.102844] (-) TimerEvent: {}
+[27.164924] (orocos_kdl) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/velocityprofile_dirac.cpp.o\x1b[0m\n'}
+[27.202991] (-) TimerEvent: {}
+[27.329779] (-) TimerEvent: {}
+[27.433776] (-) TimerEvent: {}
+[27.478676] (orocos_kdl) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/velocityprofile_rect.cpp.o\x1b[0m\n'}
+[27.533943] (-) TimerEvent: {}
+[27.634705] (-) TimerEvent: {}
+[27.735406] (-) TimerEvent: {}
+[27.838402] (-) TimerEvent: {}
+[27.940917] (-) TimerEvent: {}
+[28.042747] (-) TimerEvent: {}
+[28.144352] (-) TimerEvent: {}
+[28.156549] (orocos_kdl) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/velocityprofile_spline.cpp.o\x1b[0m\n'}
+[28.247044] (-) TimerEvent: {}
+[28.278988] (orocos_kdl) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/velocityprofile_trap.cpp.o\x1b[0m\n'}
+[28.347212] (-) TimerEvent: {}
+[28.449953] (-) TimerEvent: {}
+[28.550770] (-) TimerEvent: {}
+[28.651486] (-) TimerEvent: {}
+[28.747806] (orocos_kdl) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding CXX object src/CMakeFiles/orocos-kdl.dir/velocityprofile_traphalf.cpp.o\x1b[0m\n'}
+[28.751611] (-) TimerEvent: {}
+[28.854349] (-) TimerEvent: {}
+[28.954964] (-) TimerEvent: {}
+[29.055537] (-) TimerEvent: {}
+[29.156149] (-) TimerEvent: {}
+[29.256789] (-) TimerEvent: {}
+[29.357324] (-) TimerEvent: {}
+[29.458488] (-) TimerEvent: {}
+[29.560271] (-) TimerEvent: {}
+[29.660856] (-) TimerEvent: {}
+[29.761416] (-) TimerEvent: {}
+[29.861950] (-) TimerEvent: {}
+[29.962471] (-) TimerEvent: {}
+[30.063030] (-) TimerEvent: {}
+[30.163671] (-) TimerEvent: {}
+[30.264162] (-) TimerEvent: {}
+[30.364576] (-) TimerEvent: {}
+[30.465031] (-) TimerEvent: {}
+[30.467044] (orocos_kdl) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library liborocos-kdl.so\x1b[0m\n'}
+[30.565199] (-) TimerEvent: {}
+[30.665710] (-) TimerEvent: {}
+[30.669999] (orocos_kdl) StdoutLine: {'line': b'[100%] Built target orocos-kdl\n'}
+[30.693289] (orocos_kdl) CommandEnded: {'returncode': 0}
+[30.723608] (orocos_kdl) JobProgress: {'identifier': 'orocos_kdl', 'progress': 'install'}
+[30.737592] (orocos_kdl) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/build/orocos_kdl'], 'cwd': '/home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/build/orocos_kdl', 'env': OrderedDict([('HOSTNAME', 'larsmols-XPS-13-9310'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/user'), ('OLDPWD', '/home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics'), ('ROS_PYTHON_VERSION', '3'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/user/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/build/orocos_kdl'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[30.750029] (orocos_kdl) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[30.750364] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/share/orocos_kdl/cmake/FindEigen3.cmake\n'}
+[30.750517] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/share/orocos_kdl/cmake/orocos_kdl-config.cmake\n'}
+[30.750679] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/share/orocos_kdl/cmake/orocos_kdl-config-version.cmake\n'}
+[30.750907] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/share/orocos_kdl/cmake/OrocosKDLTargets.cmake\n'}
+[30.751120] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/share/orocos_kdl/cmake/OrocosKDLTargets-release.cmake\n'}
+[30.751414] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/lib/pkgconfig/orocos-kdl.pc\n'}
+[30.751595] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/lib/pkgconfig/orocos_kdl.pc\n'}
+[30.753373] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/lib/liborocos-kdl.so.1.5.1\n'}
+[30.754514] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/lib/liborocos-kdl.so.1.5\n'}
+[30.754719] (orocos_kdl) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/lib/liborocos-kdl.so.1.5.1" to "$ORIGIN/../lib"\n'}
+[30.754889] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/lib/liborocos-kdl.so\n'}
+[30.755176] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/articulatedbodyinertia.hpp\n'}
+[30.755363] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/chain.hpp\n'}
+[30.755490] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/chaindynparam.hpp\n'}
+[30.755615] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/chainexternalwrenchestimator.hpp\n'}
+[30.755777] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/chainfdsolver.hpp\n'}
+[30.755919] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/chainfdsolver_recursive_newton_euler.hpp\n'}
+[30.756033] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/chainfksolver.hpp\n'}
+[30.756149] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/chainfksolverpos_recursive.hpp\n'}
+[30.756306] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/chainfksolvervel_recursive.hpp\n'}
+[30.756526] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/chainhdsolver_vereshchagin.hpp\n'}
+[30.756679] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/chainidsolver.hpp\n'}
+[30.757009] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/chainidsolver_recursive_newton_euler.hpp\n'}
+[30.757177] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/chainidsolver_vereshchagin.hpp\n'}
+[30.757291] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/chainiksolver.hpp\n'}
+[30.757451] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/chainiksolverpos_lma.hpp\n'}
+[30.757536] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/chainiksolverpos_nr.hpp\n'}
+[30.757660] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/chainiksolverpos_nr_jl.hpp\n'}
+[30.757789] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/chainiksolvervel_pinv.hpp\n'}
+[30.757904] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/chainiksolvervel_pinv_givens.hpp\n'}
+[30.758021] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/chainiksolvervel_pinv_nso.hpp\n'}
+[30.758144] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/chainiksolvervel_wdls.hpp\n'}
+[30.758264] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/chainjnttojacdotsolver.hpp\n'}
+[30.758379] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/chainjnttojacsolver.hpp\n'}
+[30.758494] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/frameacc.hpp\n'}
+[30.758610] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/frameacc.inl\n'}
+[30.758747] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/frameacc_io.hpp\n'}
+[30.758859] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/frames.hpp\n'}
+[30.758997] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/frames.inl\n'}
+[30.759134] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/frames_io.hpp\n'}
+[30.760233] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/framevel.hpp\n'}
+[30.760414] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/framevel.inl\n'}
+[30.760604] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/framevel_io.hpp\n'}
+[30.760934] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/jacobian.hpp\n'}
+[30.761280] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/jntarray.hpp\n'}
+[30.761553] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/jntarrayacc.hpp\n'}
+[30.761851] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/jntarrayvel.hpp\n'}
+[30.762175] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/jntspaceinertiamatrix.hpp\n'}
+[30.762414] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/joint.hpp\n'}
+[30.762635] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/kdl.hpp\n'}
+[30.762920] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/kinfam.hpp\n'}
+[30.763168] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/kinfam_io.hpp\n'}
+[30.763361] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/motion.hpp\n'}
+[30.763524] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/path.hpp\n'}
+[30.763732] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/path_circle.hpp\n'}
+[30.763942] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/path_composite.hpp\n'}
+[30.764080] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/path_cyclic_closed.hpp\n'}
+[30.764221] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/path_line.hpp\n'}
+[30.764368] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/path_point.hpp\n'}
+[30.764840] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/path_roundedcomposite.hpp\n'}
+[30.765029] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/rigidbodyinertia.hpp\n'}
+[30.765210] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/rotational_interpolation.hpp\n'}
+[30.765400] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/rotational_interpolation_sa.hpp\n'}
+[30.765589] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/rotationalinertia.hpp\n'}
+[30.765705] (-) TimerEvent: {}
+[30.765942] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/segment.hpp\n'}
+[30.766154] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/solveri.hpp\n'}
+[30.766551] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/stiffness.hpp\n'}
+[30.767236] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/trajectory.hpp\n'}
+[30.767448] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/trajectory_composite.hpp\n'}
+[30.767621] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/trajectory_segment.hpp\n'}
+[30.767805] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/trajectory_stationary.hpp\n'}
+[30.768009] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/tree.hpp\n'}
+[30.768206] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/treefksolver.hpp\n'}
+[30.768411] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/treefksolverpos_recursive.hpp\n'}
+[30.768628] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/treeidsolver.hpp\n'}
+[30.768855] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/treeidsolver_recursive_newton_euler.hpp\n'}
+[30.769157] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/treeiksolver.hpp\n'}
+[30.769347] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/treeiksolverpos_nr_jl.hpp\n'}
+[30.769616] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/treeiksolverpos_online.hpp\n'}
+[30.769854] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/treeiksolvervel_wdls.hpp\n'}
+[30.770083] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/treejnttojacsolver.hpp\n'}
+[30.770279] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/velocityprofile.hpp\n'}
+[30.770488] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/velocityprofile_dirac.hpp\n'}
+[30.770732] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/velocityprofile_rect.hpp\n'}
+[30.770972] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/velocityprofile_spline.hpp\n'}
+[30.771198] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/velocityprofile_trap.hpp\n'}
+[30.771440] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/velocityprofile_traphalf.hpp\n'}
+[30.771685] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/config.h\n'}
+[30.772271] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/utilities/error.h\n'}
+[30.772583] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/utilities/error_stack.h\n'}
+[30.773072] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/utilities/hash_combine.h\n'}
+[30.773320] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/utilities/kdl-config.h\n'}
+[30.774258] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/utilities/ldl_solver_eigen.hpp\n'}
+[30.774436] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/utilities/rall1d.h\n'}
+[30.774591] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/utilities/rall1d_io.h\n'}
+[30.774791] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/utilities/rall2d.h\n'}
+[30.774963] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/utilities/rall2d_io.h\n'}
+[30.775122] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/utilities/rallNd.h\n'}
+[30.775271] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/utilities/scoped_ptr.hpp\n'}
+[30.775412] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/utilities/svd_HH.hpp\n'}
+[30.775540] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/utilities/svd_eigen_HH.hpp\n'}
+[30.775687] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/utilities/svd_eigen_Macie.hpp\n'}
+[30.775812] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/utilities/traits.h\n'}
+[30.775943] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/utilities/utility.h\n'}
+[30.776106] (orocos_kdl) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/Roboticslab24/Homework2/kdl/orocos_kinematics_dynamics/orocos_kdl/install/orocos_kdl/include/kdl/utilities/utility_io.h\n'}
+[30.780813] (orocos_kdl) CommandEnded: {'returncode': 0}
+[30.859233] (orocos_kdl) JobEnded: {'identifier': 'orocos_kdl', 'rc': 0}
+[30.860734] (-) EventReactorShutdown: {}
