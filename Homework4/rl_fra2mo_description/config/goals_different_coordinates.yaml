@@ -1,0 +1,17 @@
+goals:
+  - pose:
+      x: 0.0
+      y: 5.0
+      yaw: 0.0  # Degrees
+  - pose:
+      x: 8.0
+      y: -4.0
+      yaw: 30.0  # Degrees
+  - pose:
+      x: 7.0
+      y: 8.0
+      yaw: 180.0  # Degrees
+  - pose:
+      x: -1.6
+      y: -2.5
+      yaw: 75.0  # Degrees
